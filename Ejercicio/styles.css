@@ -1,0 +1,28 @@
+﻿* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.main-container {
+    background: url("https://i.pinimg.com/originals/90/d3/69/90d369307d0a2cac8dd2cea650f4f797.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.form-container{
+    width:800px;
+    height:80vh;
+    padding:10px;
+    background-color:rgb(162 170 255 / 0.29);
+    backdrop-filter:blur(5px);
+    border-radius:20px;
+}
+.views-controller{
+    height:50px;
+    display:flex;
+    justify-content:center;
+}
